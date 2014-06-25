@@ -1,16 +1,65 @@
+div {
+	padding: 10px;
+	color: white;
+	font-family: sans-serif;
+
+
+}
 .header{
- background-color: #f2a062;
+	background-color: #f2a062;
+	padding: 20px;
+}
+
+.logo {
+	 display: inline;
+	 background-color: #eb6481;
+}
+
+.navigation {
+	 display: inline;
+	 background-color: #d76a50;
+}
+
+.main {
+	display: inline-block;
+	background-color: #507088;
+
 }
 
 .sidebar {
- background-color: #f6bd62;
+	background-color: #f6bd62;
+	display: inline-block;
+	width: 200px;
+	height: 500px;
 }
 
+
 .footer {
- background-color: orange;
+	background-color: #b7ce3e;
 }
 
 .content {
- background-color: #b7ce3e;
+	background-color: #507088;
+	display: inline-block;
+	height: 500px;
+	width: auto;
 }
 
+.widget {
+	background-color: #d76a50;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+#sub-widget {
+	background-color: white;
+	margin: 10px;
+}
+
+.gadget {
+	background-color: #eb6481;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
