@@ -1,3 +1,9 @@
+* {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+}
 div {
 	padding: 10px;
 	color: white;
@@ -21,8 +27,14 @@ div {
 }
 
 .main {
-	display: inline-block;
+	display: inline;
 	background-color: #507088;
+
+}
+
+.featured {
+	display: inline-block;
+	background-color: #8eabc0;
 
 }
 
@@ -46,20 +58,32 @@ div {
 }
 
 .widget {
+	display: inline-block;
 	background-color: #d76a50;
 	width: 200px;
 	height: 200px;
 	margin: 10px;
 }
 
+.widget.blue {
+	background-color: #507088;
+
+}
+
 #sub-widget {
 	background-color: white;
 	margin: 10px;
+	color: black;
 }
 
 .gadget {
+	display: inline-block;
 	background-color: #eb6481;
 	width: 200px;
 	height: 200px;
 	margin: 10px;
+}
+.gadget.blue {
+	background-color: #3a5162;
+
 }
